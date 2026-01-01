@@ -14,6 +14,9 @@
 </div>
 
 ## About ##
+> [!NOTE]
+> Still very WIP
+
 A string similarity library for Lua/LuaJIT providing edit distance and similarity algorithms.
 
 Check this out: 
