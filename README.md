@@ -2,7 +2,9 @@
 
   <h1>strsim</h1>
 
-  <h4>A string similarity library for Lua/LuaJIT providing edit distance and similarity algorithms.</h4>
+  <h4>A string similarity library for Lua/LuaJIT</h4>
+  <h6>A string similarity library providing edit distance and similarity algorithms.</h4>
+
   
 
 [![Lua](https://img.shields.io/badge/Lua-blue.svg?style=for-the-badge&logo=lua)](http://www.lua.org)
