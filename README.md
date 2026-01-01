@@ -52,6 +52,16 @@ local dist = strsim.distance("hello", "hallo", strsim.Algorithm.LEVENSHTEIN)
 > [!NOTE]
 > If no algorithm is selected we will default to LEVENSHTEIN
 
+
+### Direct algorithm usage
+
+```lua
+local levenshtein = require("algorithms.levenshtein")
+
+local dist = levenshtein.distance("kitten", "sitting")  -- 3
+local sim = levenshtein.similarity("hello", "hallo")    -- 0.8
+```
+
 ## Algorithms ##
 
 > [!NOTE]
