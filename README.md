@@ -79,7 +79,7 @@ https://en.wikipedia.org/wiki/Levenshtein_distance
 >
 > - Single-row DP (O(min(m,n)) space instead of O(m*n))
 > - Early termination for equal strings
-> - Strippinmg common prefix/suffix
+> - Stripping common prefix/suffix
 > - Swapping strings to minimize memory usage
 > - Avoiding table.insert, using direct indexing
 > - Using byte access instead of sub() for single chars
