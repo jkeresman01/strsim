@@ -45,21 +45,7 @@ end
 ------------------------------------------------------------
 function strsim.similarity(a, b, algorithm)
     algorithm = algorithm or DEFAULT_ALGORITHM
-
-    -- Use custom similarity if provided by algorithm
-    if algorithm.similarity then
-        return algorithm.similarity(a, b)
-    end
-
-    -- Default: derive similarity from distance
-    local len_a, len_b = #a, #b
-    if len_a == 0 and len_b == 0 then
-        return 1.0
-    end
-
-    local max_len = math.max(len_a, len_b)
-    local dist = algorithm.distance(a, b)
-    return 1.0 - (dist / max_len)
+    return algorithm.similarity(a, b)
 end
 
 strsim.Algorithm = Algorithm

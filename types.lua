@@ -4,7 +4,7 @@
 ---@class StringDistanceAlgorithm
 ---@field name string The algorithm name
 ---@field distance fun(a: string, b: string): number Calculate edit distance
----@field similarity? fun(a: string, b: string): number Calculate similarity (optional)
+---@field similarity fun(a: string, b: string): number Calculate similarity
 
 ---@class strsim.AlgorithmEnum
 ---@field LEVENSHTEIN StringDistanceAlgorithm Levenshtein edit distance
